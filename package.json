@@ -1,0 +1,24 @@
+{
+  "name": "cardboard-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Design card and board game components, then playtest them in the browser",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "pnpm --filter web test",
+    "lint": "pnpm --filter web lint"
+  },
+  "keywords": [],
+  "author": "Ho Thanh Hai Tran",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.8.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.8.1",
+  "type": "module"
+}
